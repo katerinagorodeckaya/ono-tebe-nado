@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Оно тебе надо</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/global.css"/>
     <link rel="stylesheet" href="./styles/styles.css"/>
@@ -12,7 +14,7 @@
       <nav class="header_menu">
         <ul class="header_menu-list">
           <li class="header_menu-item header_menu-item_active">
-            <a class="header_menu-link_active" href="#0">Главная</a>
+            <a class="header_menu-link header_menu-link_active" href="#0">Главная</a>
           </li>
           <li class="header_menu-item">
             <a class="header_menu-link" href="#0">Посмотреть лоты</a>
@@ -25,9 +27,9 @@
       <a class="header_logo">
         <img class="header_logo_img" src="./images/logo.svg" alt="Оно тебе надо"/> 
       </a>
-      <address class="address">
+      <address class="address header_address">
         <a href="tel:+70000000">+9 999 555 5555</a><br>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br> наб. Принсенграхт 263<br>-265, Амстердам
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br> наб. Принсенграхт 263-<br>265, Амстердам
       </address> 
     </header>
     <main>
@@ -39,7 +41,7 @@
           <span class="span text_right">надо</span>
         </h1>
         <div class="cover_description">
-          <p class="cover_description_text">Аукцион вещей, вкоторые никто не верил</p>
+          <p class="cover_description_text">Аукцион вещей, в которые никто не верил</p>
           <a class="cover_link" href="#0">Сделать ставку</a> 
         </div>
       </section>  
@@ -99,11 +101,11 @@
             <img class="about_logo_img" src="./images/logo-white.png" alt="Оно тебе надо"/> 
           </div>
         </a> 
-        <h4 class="about_header">Об аукционе</h4>
-        <p class="about_text_first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. 
+        <h2 class="about_header">Об аукционе</h2>
+        <p class="about_text about_text_margin">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. 
         Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
         </p>
-        <p class="about_text_second">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. 
+        <p class="about_text about_text_no_margin">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. 
         Когда-то они казались просто неудачными. Но, несмотря
         на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, 
         продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
@@ -111,14 +113,14 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer_address">
+      <address class="address footer_address">
         <a href="tel:+70000000">+9 999 555 5555</a><br>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br> наб. Принсенграхт 263<br>-265, Амстердам
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br> наб. Принсенграхт 263-265,<br> Амстердам
       </address> 
       <nav class="footer_menu">
         <ul class="footer_menu-list">
           <li class="footer_menu-item_active">
-            <a class="footer_menu-link_active" href="#0">Главная</a>
+            <a class="footer_menu-link footer_menu-link_active" href="#0">Главная</a>
           </li>
           <li class="footer_menu-item">
             <a class="footer_menu-link" href="#0">Посмотреть лоты</a>
@@ -128,25 +130,24 @@
           </li>
         </ul>
       </nav>
-      <nav class="media_menu">
-        <ul class="media_menu-list">
+       <ul class="media_menu-list">
           <li class="media_menu-item">
-            <a class="media_menu-link youtube" href="#0">
-              <img class=youtube src="./images/YouTube.png" alt="youtube">
+            <a class="media_menu-link" href="#0" target="_blank">
+              <img class="youtube" src="./images/YouTube.png" alt="youtube">
             </a>
           </li>
           <li class="media_menu-item">
-            <a class="media_menu-link vk" href="#0">
+            <a class="media_menu-link" href="#0" target="_blank">
               <img class="vk" src="./images/VK.png" alt="vk">
             </a>
           </li>
           <li class="media_menu-item">
-            <a class="media_menu-link pinterest" href="#0">
+            <a class="media_menu-link" href="#0" target="_blank">
               <img class="pinterest" src="./images/Pinterest.png" alt="pinterest">
             </a>
           </li>
         </ul>
-      </nav>    
+   
     </footer>
 
   </body>
